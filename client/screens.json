@@ -27,6 +27,13 @@
       "sourceScreenId": "app.login.logincaptivating",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "urgentreguestlist",
+      "name": "urgentreguestlist",
+      "sourceScreenId": "app.listview.listviewconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "urgentreguestlist"
     }
   ],
   "sourceAppId": "_blank",

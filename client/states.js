@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.urgentreguestlist', {
+        views: {
+            app: {
+                controller: 'app_urgentreguestlist',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.urgentreguestlist');
+                }
+            }
+        }
     });
 });
