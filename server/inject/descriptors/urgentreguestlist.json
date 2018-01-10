@@ -23,7 +23,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isurgentlist"
+      ],
       "screens": [
         "urgentreguestlist"
       ]
