@@ -12,7 +12,16 @@
         <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.listItems"
             style="border-radius: 10px;" type=" card">
             <div class="card" data-comp-display="card.1" data-comp-id="div.1">
-                <div data-comp-id="text.1" ng-bind="item.company">Some text</div>
+                <div data-comp-id="div.2">
+                    <div class="row" data-comp-id="row.1">
+                        <div class="col" data-comp-id="column.2">
+                            <div data-comp-id="text.2">Some text</div>
+                        </div>
+                        <div class="col" data-comp-id="column.1">
+                            <div data-comp-id="text.1" ng-bind="item.company">Company:</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </ion-list>
     </ion-content>
