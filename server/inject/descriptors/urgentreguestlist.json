@@ -11,6 +11,11 @@
             "type": "string",
             "selector": "#requestlist > li > div > div.col-sm-1 > div > span:nth-child(1)",
             "control": "property.innerText"
+          },
+          "po": {
+            "type": "string",
+            "selector": "#requestlist > li > div > div.col-sm-3 > div > span:nth-child(1)",
+            "control": "property.innerText"
           }
         }
       }
