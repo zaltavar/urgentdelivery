@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "urgentreguestlist": {
+      "type": "array",
+      "selectorAll": "#requestlist li",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "connect": []
+}
