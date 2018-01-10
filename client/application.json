@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "37f6ba12",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "zaltavar"
+  "creatorId": "zaltavar",
+  "id": "urgentdelivery",
+  "previewImageURL": "/previews/37f6ba12-urgentdelivery/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/zaltavar/urgentdelivery",
+  "creatorName": "Tamas Varga",
+  "sdks": []
 }
