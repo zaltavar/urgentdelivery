@@ -29,13 +29,6 @@
       "screens": [
         "urgentreguestlist"
       ]
-    },
-    {
-      "match": [],
-      "event": "on_click_login",
-      "screens": [
-        "urgentreguestlist"
-      ]
     }
   ]
 }
