@@ -49,7 +49,7 @@
       "selector": "#loginbutton"
     },
     "islogin": {
-      "type": "identifier",
+      "type": "action",
       "selector": "#loginbutton",
       "control": "action.button"
     }
