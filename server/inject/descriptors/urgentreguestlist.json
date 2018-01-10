@@ -14,7 +14,7 @@
           },
           "po": {
             "type": "string",
-            "selector": "#requestlist",
+            "selector": "#requestlist > li > div > div.well.well-sm.col-sm-11 > div > table > tbody > tr:nth-child(2) > td:nth-child(4)",
             "control": "property.innerText"
           }
         }
