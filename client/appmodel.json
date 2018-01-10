@@ -63,6 +63,9 @@
             },
             "icon": {
               "type": "string"
+            },
+            "company": {
+              "type": "string"
             }
           }
         },
