@@ -14,7 +14,7 @@
           },
           "po": {
             "type": "string",
-            "selector": "#requestlist > li > div > div.col-sm-3 > div > span:nth-child(1)",
+            "selector": "#requestlist",
             "control": "property.innerText"
           }
         }
