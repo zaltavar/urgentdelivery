@@ -10,5 +10,12 @@
       }
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "urgentreguestlist"
+      ]
+    }
+  ]
 }
