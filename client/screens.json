@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "urgentdelivery",
-  "startScreen": "app.urgentreguestlist",
+  "startScreen": "app.login",
   "screens": [
     {
       "id": "blank",
