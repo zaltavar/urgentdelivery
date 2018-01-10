@@ -49,7 +49,7 @@
       "selector": "#loginbutton"
     },
     "islogin": {
-      "type": "action",
+      "type": "identifier",
       "selector": "#loginbutton",
       "control": "exists"
     }
