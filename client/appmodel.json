@@ -65,7 +65,10 @@
               "type": "string"
             },
             "company": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             }
           }
         },
