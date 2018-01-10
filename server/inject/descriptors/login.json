@@ -51,7 +51,7 @@
     "islogin": {
       "type": "action",
       "selector": "#loginbutton",
-      "control": "action.button"
+      "control": "exists"
     }
   },
   "connect": [
