@@ -33,7 +33,7 @@
         "type": "none"
       },
       "selector": "#ErrorLabel",
-      "control": "text"
+      "control": "property.innerHTML"
     },
     "submit": {
       "type": "action",
