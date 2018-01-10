@@ -9,7 +9,7 @@
         "properties": {
           "company": {
             "type": "string",
-            "selector": "#requestlist > li:nth-child(1) > div > div.col-sm-1 > div > span:nth-child(1)",
+            "selector": "#requestlist > li > div > div.col-sm-1 > div > span:nth-child(1)",
             "control": "property.innerText"
           }
         }
