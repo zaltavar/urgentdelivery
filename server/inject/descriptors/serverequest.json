@@ -16,6 +16,11 @@
       "type": "string",
       "selector": "#poz",
       "control": "text"
+    },
+    "isserverequest": {
+      "type": "identifier",
+      "selector": "#refreshbutton",
+      "control": "exists"
     }
   },
   "connect": []
