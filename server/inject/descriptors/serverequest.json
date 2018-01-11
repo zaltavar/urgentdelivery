@@ -86,6 +86,11 @@
       "type": "string",
       "selector": "#nowdate",
       "control": "text"
+    },
+    "send": {
+      "type": "action",
+      "selector": "#nowdate",
+      "control": "text"
     }
   },
   "connect": [

@@ -46,7 +46,7 @@
         }
       },
       "control": "action.button",
-      "selector": "#loginbutton"
+      "selector": "#savebutton"
     },
     "islogin": {
       "type": "identifier",
