@@ -11,10 +11,16 @@
     <ion-content class=" calm-bg" data-comp-id="ionic-content.1">
         <!--Form Contents-->
         <div data-comp-id="div.1" style="margin: 10% 10% 2%;">
-            <div data-comp-id="text.1" ng-bind="data.item">Some text</div>
+            <label class="item item-input" data-comp-id="textInput.1">
+                <span class="input-label">Item</span>
+                <input ng-model="data.item" type="text">
+            </label>
         </div>
         <div class=" light-bg" data-comp-id="div.2" style="margin: 2% 10%;">
-            <div data-comp-id="text.2" ng-bind="data.order_nr">Some text</div>
+            <label class="item item-input" data-comp-id="textInput.2">
+                <span class="input-label">Ordernr</span>
+                <input ng-model="data.ordernr" type="text">
+            </label>
         </div>
         <div class=" light-bg" data-comp-id="div.3" style="margin: 2% 10%;"></div>
         <div data-comp-id="div.4" style="margin: 2% 10%;"></div>
