@@ -26,6 +26,66 @@
       "type": "string",
       "selector": "#supplier",
       "control": "text"
+    },
+    "order_qty": {
+      "type": "string",
+      "selector": "#orderedqty",
+      "control": "text"
+    },
+    "delivered_qty": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "buyer_code": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "buyer_name": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "company": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "awb": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "comment": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "insp_date": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "insp_qty": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "rec_date": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "release_date": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
+    },
+    "now_date": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
     }
   },
   "connect": [
