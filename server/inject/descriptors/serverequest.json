@@ -21,6 +21,11 @@
       "type": "identifier",
       "selector": "#refreshbutton",
       "control": "exists"
+    },
+    "supplier": {
+      "type": "string",
+      "selector": "#supplier",
+      "control": "text"
     }
   },
   "connect": [
