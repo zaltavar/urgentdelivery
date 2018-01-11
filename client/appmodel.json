@@ -102,6 +102,15 @@
       },
       "order_qty": {
         "type": "string"
+      },
+      "deliver_qty": {
+        "type": "string"
+      },
+      "buyer_name": {
+        "type": "string"
+      },
+      "buyer_code": {
+        "type": "string"
       }
     }
   }
