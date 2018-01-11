@@ -39,7 +39,7 @@
     },
     "buyer_code": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#buyercode",
       "control": "text"
     },
     "buyer_name": {
