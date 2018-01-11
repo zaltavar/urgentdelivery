@@ -46,40 +46,7 @@
   "urgentreguestlist": {
     "type": "object",
     "comment": "ListView",
-    "properties": {
-      "listItems": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "string": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "action": {
-              "type": "action"
-            },
-            "icon": {
-              "type": "string"
-            },
-            "company": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "po": {
-              "type": "string"
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      }
-    }
+    "properties": {}
   },
   "serverequest": {
     "type": "object",
