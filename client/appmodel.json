@@ -95,7 +95,10 @@
         "type": "string"
       },
       "item": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "supplier": {
         "type": "string"
