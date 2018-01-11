@@ -69,22 +69,22 @@
     },
     "insp_qty": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#inspectionqty",
       "control": "text"
     },
     "rec_date": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#receiptdate",
       "control": "text"
     },
     "release_date": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#releasedate",
       "control": "text"
     },
     "now_date": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#nowdate",
       "control": "text"
     }
   },
