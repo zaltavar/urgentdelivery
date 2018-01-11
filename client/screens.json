@@ -34,6 +34,13 @@
       "sourceScreenId": "app.listview.listviewconfident",
       "sourceAppId": "universaltemplates",
       "model": "urgentreguestlist"
+    },
+    {
+      "id": "serverequest",
+      "name": "serverequest",
+      "sourceScreenId": "app.formsmall.formsmallconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "serverequest"
     }
   ],
   "sourceAppId": "_blank",

@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.serverequest', {
+        views: {
+            app: {
+                controller: 'app_serverequest',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.serverequest');
+                }
+            }
+        }
     });
 });
