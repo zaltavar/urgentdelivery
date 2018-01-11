@@ -87,6 +87,21 @@
     "properties": {
       "submit": {
         "type": "action"
+      },
+      "order_nr": {
+        "type": "string"
+      },
+      "position": {
+        "type": "string"
+      },
+      "item": {
+        "type": "string"
+      },
+      "supplier": {
+        "type": "string"
+      },
+      "order_qty": {
+        "type": "string"
       }
     }
   }
