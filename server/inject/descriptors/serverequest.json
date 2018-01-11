@@ -34,7 +34,7 @@
     },
     "delivered_qty": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#deliveredqty",
       "control": "text"
     },
     "buyer_code": {
