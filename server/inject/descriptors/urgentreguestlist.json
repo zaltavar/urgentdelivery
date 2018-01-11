@@ -26,6 +26,11 @@
             "type": "string",
             "control": "property.innerText",
             "selector": "#requestlist > li > div > div.well.well-sm.col-sm-11 > div > table > tbody > tr:nth-child(1) > td:nth-child(2)"
+          },
+          "awb_nr": {
+            "type": "string",
+            "selector": "#requestlist > li > div > div.well.well-sm.col-sm-11 > div > table > tbody > tr:nth-child(2) > td:nth-child(1)",
+            "control": "property.innerText"
           }
         }
       }
