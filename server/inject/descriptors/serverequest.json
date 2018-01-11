@@ -6,6 +6,16 @@
       "type": "string",
       "selector": "#item",
       "control": "text"
+    },
+    "ordernr": {
+      "type": "string",
+      "selector": "#ordernumber",
+      "control": "text"
+    },
+    "pos": {
+      "type": "string",
+      "selector": "#item",
+      "control": "text"
     }
   },
   "connect": []
