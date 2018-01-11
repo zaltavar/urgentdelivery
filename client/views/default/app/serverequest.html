@@ -10,27 +10,31 @@
     </ion-nav-bar>
     <ion-content class=" calm-bg" data-comp-id="ionic-content.1">
         <!--Form Contents-->
-        <div data-comp-id="div.1" style="margin: 10% 10% 2%;">
-            <div data-comp-id="text.1">Some text</div>
-            <label class="item item-input" data-comp-id="textInput.1">
-                <span class="input-label">Item</span>
-                <input ng-model="data.item" type="text">
-            </label>
-        </div>
         <div class=" light-bg" data-comp-id="div.2" style="margin: 2% 10%;">
-            <label class="item item-input" data-comp-id="textInput.2">
-                <span class="input-label">Ordernr</span>
-                <input ng-model="data.ordernr" type="text">
-            </label>
-        </div>
-        <div class=" light-bg" data-comp-id="div.3" style="margin: 2% 10%;"></div>
-        <div data-comp-id="div.4" style="margin: 2% 10%;"></div>
-        <div data-comp-id="div.5" style="margin: 2% 10%;"></div>
-        <div data-comp-id="div.6" style="margin: 2% 10%;">
-            <ion-checkbox
-                class="checkbox-style-square checkbox-position-right positive-icon-checked positive-icon-border"
-                data-comp-id="checkbox.1" ng-model="data.CheckBoxOne.selected[$index]"
-                ng-repeat="item in data.CheckBoxOne.options track by $index">{{item.label}}</ion-checkbox>
+            <div class="row" data-comp-id="row.2">
+                <div class="col" data-comp-id="column.2">
+                    <label class="item item-input" data-comp-id="textInput.1">
+                        <span class="input-label">Item</span>
+                        <input ng-model="data.item" type="text">
+                    </label>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.3">
+                <div class="col" data-comp-id="column.3">
+                    <label class="item item-input" data-comp-id="textInput.2">
+                        <span class="input-label">Ordernr</span>
+                        <input ng-model="data.ordernr" type="text">
+                    </label>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.4">
+                <div class="col" data-comp-id="column.4">
+                    <label class="item item-input" data-comp-id="textInput.3">
+                        <span class="input-label">Pos</span>
+                        <input ng-model="data.pos" type="text">
+                    </label>
+                </div>
+            </div>
         </div>
         <div data-comp-id="div.7" style="width: 80%; margin: 10%;">
             <div class="row" data-comp-id="row.1" style="margin: 0px;">
