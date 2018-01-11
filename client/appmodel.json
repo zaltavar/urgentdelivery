@@ -62,16 +62,28 @@
               }
             },
             "rid": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "item": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "awb_nr": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "insp": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             }
           }
         },
