@@ -91,6 +91,11 @@
       "type": "action",
       "selector": "#nowdate",
       "control": "text"
+    },
+    "awb_nr": {
+      "type": "action",
+      "selector": "#awbnumber",
+      "control": "action.button"
     }
   },
   "connect": [
