@@ -89,7 +89,10 @@
         "type": "action"
       },
       "order_nr": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "position": {
         "type": "string"
