@@ -56,7 +56,10 @@
               "type": "string"
             },
             "po": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "rid": {
               "type": "string"
