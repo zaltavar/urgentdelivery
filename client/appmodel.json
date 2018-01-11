@@ -129,6 +129,15 @@
       },
       "insp_qty": {
         "type": "string"
+      },
+      "receipt_date": {
+        "type": "string"
+      },
+      "release_date": {
+        "type": "string"
+      },
+      "now_date": {
+        "type": "string"
       }
     }
   }
