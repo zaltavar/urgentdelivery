@@ -54,17 +54,17 @@
     },
     "awb": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#awbtime",
       "control": "text"
     },
     "comment": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#comment",
       "control": "text"
     },
     "insp_date": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#inspectiondate",
       "control": "text"
     },
     "insp_qty": {
