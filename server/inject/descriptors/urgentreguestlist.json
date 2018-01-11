@@ -19,7 +19,7 @@
           },
           "rid": {
             "type": "string",
-            "selector": "#requestlist > li > div > div.col-sm-1 > div > span:nth-child(2)",
+            "selector": "#requestlist",
             "control": "property.innerText"
           }
         }
