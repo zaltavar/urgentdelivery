@@ -23,5 +23,14 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isserverequest"
+      ],
+      "screens": [
+        "serverequest"
+      ]
+    }
+  ]
 }
