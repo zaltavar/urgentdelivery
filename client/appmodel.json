@@ -111,6 +111,24 @@
       },
       "buyer_code": {
         "type": "string"
+      },
+      "company": {
+        "type": "string"
+      },
+      "awb_nr": {
+        "type": "string"
+      },
+      "awb_time": {
+        "type": "string"
+      },
+      "comment": {
+        "type": "string"
+      },
+      "insp_date": {
+        "type": "string"
+      },
+      "insp_qty": {
+        "type": "string"
       }
     }
   }
