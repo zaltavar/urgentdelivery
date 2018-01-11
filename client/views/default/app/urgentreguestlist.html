@@ -27,10 +27,11 @@
         <div data-comp-id="div.3">
             <div class="row" data-comp-id="row.2">
                 <div class="col" data-comp-id="column.4">
-                    <div data-comp-id="text.4">Company:</div>
-                </div>
-                <div class="col" data-comp-id="column.3">
-                    <div data-comp-id="text.3" ng-bind="data.company">Some text</div>
+                    <label class="item item-input" data-comp-display="labeledtext.1"
+                        data-comp-id="textInput.2">
+                        <span class="input-label">Company:</span>
+                        <span ng-model="data.company" type="text"></span>
+                    </label>
                 </div>
             </div>
         </div>
