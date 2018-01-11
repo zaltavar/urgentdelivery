@@ -143,7 +143,10 @@
         "type": "string"
       },
       "delivered_qty": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "rec_date": {
         "type": "string"
