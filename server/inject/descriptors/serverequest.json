@@ -14,7 +14,7 @@
     },
     "pos": {
       "type": "string",
-      "selector": "#item",
+      "selector": "#poz",
       "control": "text"
     }
   },
