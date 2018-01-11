@@ -46,7 +46,34 @@
   "urgentreguestlist": {
     "type": "object",
     "comment": "ListView",
-    "properties": {}
+    "properties": {
+      "urgentreguestlist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "company": {
+              "type": "string"
+            },
+            "po": {
+              "type": "string"
+            },
+            "rid": {
+              "type": "string"
+            },
+            "item": {
+              "type": "string"
+            },
+            "awb_nr": {
+              "type": "string"
+            },
+            "insp": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   },
   "serverequest": {
     "type": "object",
