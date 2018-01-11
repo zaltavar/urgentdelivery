@@ -44,12 +44,12 @@
     },
     "buyer_name": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#buyername",
       "control": "text"
     },
     "company": {
       "type": "string",
-      "selector": "#supplier",
+      "selector": "#company",
       "control": "text"
     },
     "awb": {
