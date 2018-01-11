@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "comment": "Forms",
+  "properties": {
+    "item": {
+      "type": "string",
+      "selector": "#item",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
