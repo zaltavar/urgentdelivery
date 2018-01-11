@@ -21,6 +21,11 @@
             "type": "string",
             "selector": "li > div > div.col-sm-1 > div > span:nth-child(2)",
             "control": "property.innerText"
+          },
+          "item": {
+            "type": "string",
+            "control": "property.innerText",
+            "selector": "#requestlist > li > div > div.well.well-sm.col-sm-11 > div > table > tbody > tr:nth-child(1) > td:nth-child(2)"
           }
         }
       }
