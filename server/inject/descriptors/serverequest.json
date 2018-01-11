@@ -52,11 +52,6 @@
       "selector": "#company",
       "control": "text"
     },
-    "awb": {
-      "type": "string",
-      "selector": "#awbtime",
-      "control": "text"
-    },
     "comment": {
       "type": "string",
       "selector": "#comment",
@@ -96,6 +91,11 @@
       "type": "action",
       "selector": "#awbnumber",
       "control": "action.button"
+    },
+    "awb_time": {
+      "type": "string",
+      "selector": "#awbtime",
+      "control": "text"
     }
   },
   "connect": [
