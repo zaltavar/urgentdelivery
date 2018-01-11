@@ -82,18 +82,6 @@
     "type": "object",
     "comment": "Forms",
     "properties": {
-      "submit": {
-        "type": "action"
-      },
-      "order_nr": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
-      },
-      "position": {
-        "type": "string"
-      },
       "item": {
         "type": "string",
         "update": {
@@ -106,9 +94,6 @@
       "order_qty": {
         "type": "string"
       },
-      "deliver_qty": {
-        "type": "string"
-      },
       "buyer_name": {
         "type": "string"
       },
@@ -116,9 +101,6 @@
         "type": "string"
       },
       "company": {
-        "type": "string"
-      },
-      "awb_nr": {
         "type": "string"
       },
       "awb_time": {
@@ -133,14 +115,29 @@
       "insp_qty": {
         "type": "string"
       },
-      "receipt_date": {
-        "type": "string"
-      },
       "release_date": {
         "type": "string"
       },
       "now_date": {
         "type": "string"
+      },
+      "ordernr": {
+        "type": "string"
+      },
+      "pos": {
+        "type": "string"
+      },
+      "delivered_qty": {
+        "type": "string"
+      },
+      "rec_date": {
+        "type": "string"
+      },
+      "send": {
+        "type": "action"
+      },
+      "awb_nr": {
+        "type": "action"
       }
     }
   }
