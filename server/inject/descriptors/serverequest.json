@@ -96,6 +96,11 @@
       "type": "string",
       "selector": "#awbtime",
       "control": "text"
+    },
+    "Submit": {
+      "type": "action",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": [
